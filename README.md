@@ -1,4 +1,4 @@
-# WhatsApp Utility Bot
+# WhatsApp Rto Bot
 
 Multi-purpose WhatsApp bot for downloading YouTube videos, checking weather, fetching vehicle info (India), and chatting with a GPT-like assistant.
 
@@ -55,7 +55,7 @@ whatsapp-bot/
 
 ```bash
 sudo apt update && sudo apt install nodejs npm git ffmpeg -y
-git clone https://github.com/your-username/whatsapp-utility-bot.git
+git clone https://github.com/DroppedPyDev/whatsapp-utility-bot.git
 cd whatsapp-utility-bot
 npm install
 node bot/index.js
@@ -65,7 +65,7 @@ node bot/index.js
 
 ```bash
 pkg update && pkg install nodejs git ffmpeg -y
-git clone https://github.com/your-username/whatsapp-utility-bot.git
+git clone https://github.com/DroppedPyDev/whatsapp-utility-bot.git
 cd whatsapp-utility-bot
 npm install
 node bot/index.js
@@ -82,7 +82,7 @@ node bot/index.js
 ### 4. **On Heroku**
 
 ```bash
-git clone https://github.com/your-username/whatsapp-utility-bot.git
+git clone https://github.com/DroppedPyDev/whatsapp-utility-bot.git
 cd whatsapp-utility-bot
 heroku create
 heroku buildpacks:add heroku/nodejs
